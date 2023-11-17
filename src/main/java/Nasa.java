@@ -19,5 +19,49 @@ public class Nasa {
         this.service_version = service_version;
         this.copyright = copyright;
     }
+    public String getCopyright() {
+        return copyright;
+    }
 
+    public String getDate() {
+        return date;
+    }
+
+    public String getExplanation() {
+        return explanation;
+    }
+
+    public String getHdurl() {
+        return hdurl;
+    }
+
+    public String getMediaType() {
+        return media_type;
+    }
+
+    public String getServiceVersion() {
+        return service_version;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    @Override
+    public String toString() {
+        return "NasaObject{" +
+                "copyright='" + copyright + '\'' +
+                ", date='" + date + '\'' +
+                ", explanation='" + explanation + '\'' +
+                ", hdurl='" + hdurl + '\'' +
+                ", mediaType='" + media_type + '\'' +
+                ", serviceVersion='" + service_version + '\'' +
+                ", title='" + title + '\'' +
+                ", url='" + url + '\'' +
+                '}';
+    }
 }

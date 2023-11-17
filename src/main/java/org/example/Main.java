@@ -1,7 +1,8 @@
-package org.example;
+import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+    public static void main(String[] args) throws TelegramApiException {
+        new TelegramBot();
     }
 }
